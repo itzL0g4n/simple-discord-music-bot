@@ -34,24 +34,6 @@ module.exports = {
 			secure: false, //- Can be either true or false. Only use true if ssl is enabled!
 		},
 		{
-			identifier: "Backup Node 1", //- Used for indentifier in stats commands.
-			host: "lavalink.jirayu.net", //- The host name or IP of the lavalink server.
-			port: 13591, // The port that lavalink is listening to. This must be a number!
-			password: "youshallnotpass", //- The password of the lavalink server.
-			retryAmount: 50, //- The amount of times to retry connecting to the node if connection got dropped.
-			retryDelay: 40, //- Delay between reconnect attempts if connection is lost.
-			secure: false, //- Can be either true or false. Only use true if ssl is enabled!
-		},
-		{
-			identifier: "Backup Node 2", //- Used for indentifier in stats commands.
-			host: "lavalink.pericsq.ro", //- The host name or IP of the lavalink server.
-			port: 4499, // The port that lavalink is listening to. This must be a number!
-			password: "plamea", //- The password of the lavalink server.
-			retryAmount: 50, //- The amount of times to retry connecting to the node if connection got dropped.
-			retryDelay: 40, //- Delay between reconnect attempts if connection is lost.
-			secure: false, //- Can be either true or false. Only use true if ssl is enabled!
-		},
-		{
 			identifier: "Backup Node 3", //- Used for indentifier in stats commands.
 			host: "lava-all.ajieblogs.eu.org", //- The host name or IP of the lavalink server.
 			port: 80, // The port that lavalink is listening to. This must be a number!
